@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../Header"
 
 const ProductCard = ({name, price, link}) => {
     const [value, setValue] = React.useState(0);
@@ -9,7 +8,6 @@ const ProductCard = ({name, price, link}) => {
     const [isShow, setIsShow] = React.useState(true)
     return(
       <div>
-        <Header />
         <div classname ="item">
           <img
             className="image"
